@@ -18,7 +18,6 @@ namespace PruebaNetFramework.EntityModels
 
         [Required]
         public virtual Categoria Categoria { get; set; }
-        [Required]
-        public virtual ICollection<Articulo> Articulo { get; set; }
+
     }
 }

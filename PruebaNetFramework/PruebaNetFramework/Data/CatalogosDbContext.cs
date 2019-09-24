@@ -19,7 +19,8 @@ namespace PruebaNetFramework.Data
             return new InventarioDbContext();
         }
 
-        public DbSet<SubCategoria> SubCategoria { get; set; }
         public DbSet<Categoria> Categoria { get; set; }
+        public DbSet<SubCategoria> SubCategoria { get; set; }
+       
     }
 }

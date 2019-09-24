@@ -7,7 +7,7 @@ using System.Web;
 
 namespace PruebaNetFramework.Data
 {
-    public class InventarioDbContext :DbContext
+    public class InventarioDbContext : DbContext
     {
         public InventarioDbContext() : 
           base("BDInventarioEntities")

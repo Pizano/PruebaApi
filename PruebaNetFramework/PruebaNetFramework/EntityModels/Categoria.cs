@@ -14,8 +14,6 @@ namespace PruebaNetFramework.EntityModels
         public string Cat_Cat_Descripcion { get; set; }
 
         [Required]
-        public virtual ICollection<Articulo> Articulo { get; set; }
-        [Required]
         public virtual ICollection<SubCategoria> SubCategoria { get; set; }
     }
 }
